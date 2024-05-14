@@ -5,13 +5,16 @@ HINT: this function doesn't need to return anything, it should just print using
 console.log.
 */
 
-// Your code here 
+// Your code here
+function hello(name){
+    console.log(`Hello, ${name}`);
+}
 
 // Note: If you console.log the return value of these function calls; you will get undefined. Remember a function that does not return anything evaluates to undefined.
 
-// hello("cat"); // "Hello, cat"
-// hello("Helen"); // "Hello, Helen"
-// hello("Sting"); // "Hello, Sting"
+hello("cat"); // "Hello, cat"
+hello("Helen"); // "Hello, Helen"
+hello("Sting"); // "Hello, Sting"
 
 /******************** DO NOT MODIFY ANY CODE BELOW THIS LINE *****************/
 module.exports = hello;
